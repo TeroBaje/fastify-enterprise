@@ -20,7 +20,7 @@ jobs:
           LANGUAGE: English
           OPENAI_API_ENDPOINT: ${{ secrets.OPENAI_ENDPOINT }}
           MODEL: gpt-3.5-turbo # https://platform.openai.com/docs/models
-          PROMPT: Feedback should be in English. Please check the pull request and provide any suggestions to improve. Avoid package.json and config files. Add emojis in feedback for better display. Don't make the feedback too long. Just point out what to improve in few lines. Also check only security issues if there is any on function levels. 
+          PROMPT: ${{secrets.OPENAI_PROMPT}}
           top_p: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-top_p
           temperature: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-temperature
           max_tokens: 10000
