@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node build/index.js | pino-pretty --colorize",
     "dev": "ts-node index.ts | pino-pretty --colorize",
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,8 @@
   },
   "devDependencies": {
     "@types/node": "^20.5.9",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
     "pino-pretty": "^10.2.0",
     "typescript": "^5.2.2"
   }
