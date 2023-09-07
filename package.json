@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node build/index.js | pino-pretty --colorize",
     "dev": "ts-node index.ts | pino-pretty --colorize",
-    "build": "tsc -p tsconfig.json",
-    "prepare": "husky install"
+    "build": "tsc -p tsconfig.json"
   },
   "keywords": [],
   "author": "",
@@ -31,7 +31,7 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
+    "**/*.{js,ts}": [
       "yarn test"
     ]
   }
