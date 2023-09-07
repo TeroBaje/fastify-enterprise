@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node build/index.js | pino-pretty --colorize",
     "dev": "ts-node index.ts | pino-pretty --colorize",
@@ -19,7 +20,19 @@
   },
   "devDependencies": {
     "@types/node": "^20.5.9",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
     "pino-pretty": "^10.2.0",
     "typescript": "^5.2.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,ts}": [
+      "yarn test"
+    ]
   }
 }
