@@ -6,17 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node build/index.js | pino-pretty --colorize",
-    "dev": "node --watch index.js | pino-pretty --colorize",
+    "dev": "ts-node index.ts | pino-pretty --colorize",
     "build": "tsc -p tsconfig.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^4.22.2"
+    "fastify": "^4.22.2",
+    "pino": "^8.15.0",
+    "ts-node": "^10.9.1"
   },
   "devDependencies": {
     "@types/node": "^20.5.9",
+    "pino-pretty": "^10.2.0",
     "typescript": "^5.2.2"
   }
 }

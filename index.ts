@@ -1,6 +1,6 @@
 import fastify from 'fastify'
 
-const server = fastify()
+const server = fastify({ logger: true })
 
 server.get('/ping', async (request, reply) => {
   return 'pong\n'
