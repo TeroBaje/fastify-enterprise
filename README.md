@@ -1,4 +1,5 @@
 # Welcome to the Fastify Enterprise! 🚀
+
 Your one-stop solution for building high-performance, maintainable, and fun apps! 🌟
 
 We've got you covered, so let's conquer the world together! 🌍💪
@@ -18,6 +19,7 @@ With this template, you get all the awesomeness you need:
 - 🤖🧠 **[Automated ChatGPT Code Reviews](https://openai.com/chatgpt)** - **Stay on the cutting edge with AI-powered code reviews!**
 
 ## Table of Contents
+
 - [Fastify Enterprise Boilerplate](#fastify-enterprise)
   - [📚 Features](#-features)
   - [Table of Contents](#table-of-contents)
@@ -50,7 +52,7 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:8080](http://localhost:3000) with your browser to see the result.
 
 5. This project uses a git hook to enforce [conventional commits](https://github.com/qoomon/git-conventional-commits). To install the git hook, run the following command in the root directory of the project:
 
@@ -82,7 +84,6 @@ To use ChatGPT Code Review, add an `OPENAI_API_KEY` environment variable with an
 
 ![image](https://raw.githubusercontent.com/TeroBaje/fastify-enterprise/main/docs/code-review.png)
 
-
 ## 🤝 Contribution
 
 Contributions are always welcome! To contribute, please follow these steps:
@@ -98,6 +99,7 @@ Contributions are always welcome! To contribute, please follow these steps:
 This project is licensed under the MIT License. For more information, see the [LICENSE](./LICENSE) file.
 
 ## Contributors
+
 <table>
   <tbody>
     <tr>
