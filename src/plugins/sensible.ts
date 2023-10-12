@@ -3,9 +3,7 @@ import { fastifySensible } from "@fastify/sensible";
 import { FastifyPluginAsync } from "fastify";
 
 const sensiblePlugin: FastifyPluginAsync = async (fastify) => {
-    fastify.register(fastifySensible)
-    
-}
+  fastify.register(fastifySensible, { errorHandler: false });
+};
 
-
-export default fastifyPlugin(sensiblePlugin)
+export default fastifyPlugin(sensiblePlugin);

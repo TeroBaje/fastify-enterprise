@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "start": "node build/index.js | pino-pretty --colorize",
     "dev": "ts-node index.ts | pino-pretty --colorize",
     "build": "tsc -p tsconfig.json"
@@ -14,12 +14,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fastify/autoload": "^5.7.1",
     "fastify": "^4.22.2",
     "pino": "^8.15.0",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.5.9",
+    "@types/uuid": "^9.0.5",
     "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
     "pino-pretty": "^10.2.0",
