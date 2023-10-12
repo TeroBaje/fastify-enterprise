@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\"",
     "start": "node build/index.js | pino-pretty --colorize",
     "dev": "ts-node index.ts | pino-pretty --colorize",
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "patch-package": "pnpm patch ",
+    "patch-remove": "pnpm patch-remove  "
   },
   "keywords": [],
   "author": "",

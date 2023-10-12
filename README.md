@@ -1,4 +1,5 @@
 # Welcome to the Fastify Enterprise! 🚀
+
 Your one-stop solution for building high-performance, maintainable, and fun apps! 🌟
 
 We've got you covered, so let's conquer the world together! 🌍💪
@@ -13,11 +14,12 @@ With this template, you get all the awesomeness you need:
 - 📝 **[Conventional commits git hook](https://www.conventionalcommits.org/)** - Keep your commit history neat and tidy
 - 🎯 **[Absolute imports](https://nextjs.org/docs/advanced-features/module-path-aliases)** - No more spaghetti imports
 - ⚕️ **[Health checks](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)** - Kubernetes-compatible for robust deployments
-- 🩹 **[Patch-package](https://www.npmjs.com/package/patch-package)** - Fix external dependencies without losing your mind
+- 🩹 **[Patch-package](https://pnpm.io/cli/patch)** - Patch your pnpm packages without loosing your mind
 - 🚀 **[GitHub Actions](https://github.com/features/actions)** - Pre-configured actions for smooth workflows, including Bundle Size and performance stats
 - 🤖🧠 **[Automated ChatGPT Code Reviews](https://openai.com/chatgpt)** - **Stay on the cutting edge with AI-powered code reviews!**
 
 ## Table of Contents
+
 - [Fastify Enterprise Boilerplate](#fastify-enterprise)
   - [📚 Features](#-features)
   - [Table of Contents](#table-of-contents)
@@ -82,7 +84,6 @@ To use ChatGPT Code Review, add an `OPENAI_API_KEY` environment variable with an
 
 ![image](https://raw.githubusercontent.com/TeroBaje/fastify-enterprise/main/docs/code-review.png)
 
-
 ## 🤝 Contribution
 
 Contributions are always welcome! To contribute, please follow these steps:
@@ -98,6 +99,7 @@ Contributions are always welcome! To contribute, please follow these steps:
 This project is licensed under the MIT License. For more information, see the [LICENSE](./LICENSE) file.
 
 ## Contributors
+
 <table>
   <tbody>
     <tr>
